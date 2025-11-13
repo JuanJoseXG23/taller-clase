@@ -44,3 +44,12 @@ let apellido = prompt("Ingrese su apellido:");
 let saludo = "Bienvenido, " + nombre + " " + apellido;
 
 alert(saludo)
+
+//Ejercicio 7
+alert("CALCULAR PROMEDIO DE NOTAS")
+let nota1 = parseFloat(prompt("Ingresa la primera nota (0 a 5):"));
+let nota2 = parseFloat(prompt("Ingresa la segunda nota (0 a 5):"));
+let nota3 = parseFloat(prompt("Ingresa la tercera nota (0 a 5):"));
+let promedio = (nota1 + nota2 + nota3) / 3;
+
+alert("Su promedio es: " + promedio);
