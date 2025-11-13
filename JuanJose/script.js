@@ -8,7 +8,7 @@ let total = precio1 + precio2 + precio3;
 
 alert("El total a pagar es: $" + total);
 
-//ejercicio 2
+//Ejercicio 2
 alert("PROGRAMA QUE CALCULA AREA ")
 let ancho = parseFloat(prompt("Ingresa el ancho de la pared en metros:"));
 let alto = parseFloat(prompt("Ingresa el alto de la pared en metros:"));
@@ -16,3 +16,12 @@ let alto = parseFloat(prompt("Ingresa el alto de la pared en metros:"));
 let area = ancho * alto;
 
 alert("El área de la pared es: " + area + " metros cuadrados.");
+
+//Ejercicio 3
+alert("PROGRAMA EL PERIMETRO DE UN POTRERO")
+let largo = parseFloat(prompt("Ingresa el largo del potrero en metros:"));
+let ancho1 = parseFloat(prompt("Ingresa el ancho del potrero en metros:"));
+
+let perimetro = 2 * (largo + ancho);
+
+alert("El perímetro del potrero es: " + perimetro + " metros.");
