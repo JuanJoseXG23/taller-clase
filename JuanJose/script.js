@@ -53,3 +53,11 @@ let nota3 = parseFloat(prompt("Ingresa la tercera nota (0 a 5):"));
 let promedio = (nota1 + nota2 + nota3) / 3;
 
 alert("Su promedio es: " + promedio);
+
+//Ejercicio 8
+alert("SALARIO SEMANAL")
+let horas = parseFloat(prompt("Ingresa el número de horas trabajadas esta semana:"));
+let valorHora = parseFloat(prompt("Ingresa el valor que se paga por hora:"));
+let salario = horas * valorHora;
+
+alert("El salario semanal es: $" + salario);
