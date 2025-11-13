@@ -24,8 +24,15 @@ let perimetro = 2 * (largo + ancho);
 alert("El perímetro del potrero es: " + perimetro + " metros.");
 
 //Ejercicio 4
-
+alert("CONVERTIR DE FAHRENHEIT A CELSIUS")
 let fahrenheit = parseFloat(prompt("Ingresa la temperatura en grados Fahrenheit:"));
 let celsius = (fahrenheit - 32) * 5 / 9;
 
 alert("La temperatura en grados Celsius es: " + celsius + " °C");
+
+//Ejercicio 5
+alert("CONOCER EDAD")
+let nacimiento = parseInt(prompt("Ingresa tu año de nacimiento:"));
+let edad = 2024 - nacimiento;
+
+alert("Tu edad es: " + edad + " años.");
