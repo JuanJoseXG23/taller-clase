@@ -86,3 +86,11 @@ let montoDescuento = precioOriginal * (descuento / 100);
 let precioFinal = precioOriginal - montoDescuento;
 
 alert("El precio final a pagar es: $" + precioFinal);
+
+//Ejercicio 12
+alert("CALCULAR IVA DEL 19%");
+let precioBase = parseFloat(prompt("Ingresa el precio base del producto (sin IVA):"));
+let iva = precioBase * 0.19;
+let precioTotal = precioBase + iva;
+
+alert("IVA (19%): $" + iva + " Precio total: $" + precioTotal);
