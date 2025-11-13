@@ -61,3 +61,11 @@ let valorHora = parseFloat(prompt("Ingresa el valor que se paga por hora:"));
 let salario = horas * valorHora;
 
 alert("El salario semanal es: $" + salario);
+
+
+//Ejercicio 9
+alert("CONVERTIR MILLAS A KILOMETROS")
+let millas = parseFloat(prompt("Ingresa la distancia en millas:"));
+let kilometros = millas * 1.60934;
+
+alert("La distancia en kilómetros es: " + kilometros.toFixed + " km");
