@@ -36,3 +36,11 @@ let nacimiento = parseInt(prompt("Ingresa tu año de nacimiento:"));
 let edad = 2024 - nacimiento;
 
 alert("Tu edad es: " + edad + " años.");
+
+//Ejercicio 6
+prompt("EJERCICIO ")
+let nombre = prompt("Ingrese su nombre:");
+let apellido = prompt("Ingrese su apellido:");
+let saludo = "Bienvenido, " + nombre + " " + apellido;
+
+alert(saludo)
