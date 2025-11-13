@@ -69,3 +69,11 @@ let millas = parseFloat(prompt("Ingresa la distancia en millas:"));
 let kilometros = millas * 1.60934;
 
 alert("La distancia en kilómetros es: " + kilometros.toFixed + " km");
+
+//Ejercicio 10
+alert("CONVERTIR MINUTOS EN HORAS Y MINUTOS")
+let totalMinutos = parseInt(prompt("Ingresa el total de minutos trabajados:"));
+let horas1 = Math.floor(totalMinutos / 60);
+let minutos = totalMinutos % 60;
+
+alert("Eso representa: " + horas + " horas y " + minutos + " minutos.");
